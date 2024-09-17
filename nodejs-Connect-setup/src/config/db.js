@@ -3,6 +3,7 @@ const Config = require('.')
 
 const url = Config.DB_URL
 
+
 const dbConnection = async () =>{
     try {
         await mongoose.connect(url)
